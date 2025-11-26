@@ -1,4 +1,4 @@
-# FiveM CarInstaller V2 �
+# FiveM CarInstaller V2 🚘
 
 **FiveM CarInstaller V2** is a professional C++ GUI application engineered to streamline the deployment of vehicle modifications for FiveM servers. It automates the complex process of resource management, ensuring a seamless installation experience for both single vehicles and extensive car packs.
 
@@ -8,14 +8,20 @@
 
 *   **🤖 Automated Deployment**: Intelligently copies and structures vehicle files into your server's resources directory.
 *   **📦 Deep Scan Technology**: Recursively traverses nested directories to detect and install every vehicle within a car pack.
-*   **� Smart Auto-Structuring**:
+*   **🔧 Smart Auto-Structuring**:
     *   Creates missing `stream` directories.
     *   Organizes `.yft`, `.ytd`, and meta files.
     *   Generates `fxmanifest.lua` if absent.
-*   **� Categorized Installation**: Supports installation into specific category folders (e.g., `[cars]`, `[emergency]`) for optimal server organization.
+*   **📂 Categorized Installation**: Supports installation into specific category folders (e.g., `[cars]`, `[emergency]`) for optimal server organization.
 *   **⚙️ Config Management**: Automatically appends `ensure <car_name>` to `server.cfg`.
 *   **🖥️ Modern Dark Interface**: A sophisticated, borderless dark UI designed for modern Windows environments.
-*   **� Activity Logging**: Maintains a comprehensive `install_log.txt` for tracking all installation operations.
+*   **📊 Activity Logging**: Maintains a comprehensive `install_log.txt` for tracking all installation operations.
+
+## 💻 System Requirements
+
+*   **OS**: Windows 10 or Windows 11 (64-bit)
+*   **Runtime**: [.NET Framework 4.7.2](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472) (Usually pre-installed on Windows)
+*   **Visual C++**: [Visual C++ 2015-2022 Redistributable (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe) (Required for C++ apps)
 
 ## 🏗️ Build Instructions
 
@@ -28,7 +34,7 @@
 
 *Output Location*: `x64/Release/FiveM CarInstaller V2.exe`
 
-## � Usage Guide
+## 🚀 Usage Guide
 
 1.  **Launch**: Run `FiveM CarInstaller V2.exe`.
 2.  **Source Selection**:
@@ -39,7 +45,7 @@
 5.  **Pack Mode**: Enable **"Install as Car Pack (Deep Scan)"** for batch installations.
 6.  **Execute**: Click **INSTALL CAR(S)** to begin the process.
 
-## � License
+## 📄 License
 
 Open Source. Distributed under the MIT License.
 
