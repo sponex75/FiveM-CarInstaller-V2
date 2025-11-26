@@ -1,0 +1,25 @@
+# Visual Studio artifacts
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.suo
+*.db
+*.ipch
+*.aps
+*.tlog
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ilk
+*.exe
+*.metagen
+
+# Logs
+install_log.txt
+
+# Temporary files
+*.tmp
+*.log
